@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "checksum-service",
+  "version": "1.0.0",
+  "description": "Generates md5/sha1 hashes for plugins & themes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marko Heijnen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.4",
+    "mysql": "^2.6.2",
+    "request": "^2.55.0",
+    "yauzl": "^2.3.1"
+  }
+}
